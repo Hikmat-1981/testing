@@ -674,4 +674,5 @@ resamples<-matrix(sample(x,n*B,replace=TRUE),B,n)
 resamplemedians<-apply(resamples,1,median)
 
 # apply()command is applied to matrix so 2 speak --
+# Resampling clearly moves some obstacles out of the way --
 
